@@ -1,0 +1,25 @@
+* {
+  transition: width 1s;
+}
+div {
+  height: 100px;
+  opacity: 0.8;
+}
+.red {
+  background: red;
+}
+
+.black {
+  background: black;
+}
+
+.blue {
+  background: blue;
+}
+
+.absolute {
+  position: relative;
+  top: 50px;
+  left: 0;
+  width: 100%;
+}
