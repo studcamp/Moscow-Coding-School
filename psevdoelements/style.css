@@ -1,14 +1,20 @@
-a {
+li {
+    list-style-type: none;
+}
+a.red-button {
   position: relative;
-  padding-left: 33px;
+  padding-left: 20px;
 }
 
-a:before {
+a.red-button:before {
   content:'';
   position: absolute;
   left: 0;
-  background: url(envelope.svg) center center no-repeat;
+  background: red center center no-repeat;
   background-size: contain;
-  height: 16px;
-  width: 33px;
+  height: 10px;
+  width: 10px;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
 }
