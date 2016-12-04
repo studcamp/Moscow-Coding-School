@@ -1,0 +1,26 @@
+body {
+  font-family: "Helvetica", arial;
+}
+
+ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.bounce {
+  display: inline-block;
+  animation: bounce .5s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateX(+10px);
+  }
+
+  to {
+    transform: translateX(-10px);
+  }
+
+
+}
