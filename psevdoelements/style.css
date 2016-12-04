@@ -1,0 +1,14 @@
+a {
+  position: relative;
+  padding-left: 33px;
+}
+
+a:before {
+  content:'';
+  position: absolute;
+  left: 0;
+  background: url(envelope.svg) center center no-repeat;
+  background-size: contain;
+  height: 16px;
+  width: 33px;
+}
